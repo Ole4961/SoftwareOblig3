@@ -4,7 +4,7 @@ import main
 # Testing for if a year is divisible by 4 by not by 100
 
 def testTrue4False100():
-    assert main.isLeapYear(2008) == True
+    assert main.isLeapYear(20008) == True
     assert main.isLeapYear(2001) == False
 
 # Testing for if a year is divisible by 400
